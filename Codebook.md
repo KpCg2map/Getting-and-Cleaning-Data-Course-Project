@@ -207,7 +207,7 @@ activity - Type of the activity performed when the measurements were taken
 
 "timeBodyGyroJerkMagStd"   
 
-####Frequency measurements
+#### Frequency measurements
 
 ##### X, Y, and Z coordinates 
 
