@@ -1,10 +1,10 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-## INSTRUCTIONS
+## INSTRUCTIONS (From Course Website)
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
-## PROJECT
+## PROJECT 
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
@@ -28,7 +28,7 @@ You should create one R script called run_analysis.R that does the following.
 
 "The data to generate tidy.txt comes from experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each volunteer performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying down) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the experiment captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.   The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers were selected to generate the training data and 30%  of the volunteers were selected to generate the test data." The sensor acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity. Jerk (time rate of change of acceleration) and gyroscopic jerk (time rate of change of angular velocity) were calculated as well as the mean, standard deviation and other statisitcs and for each subject and activity.Time as well as frequency measurements were made. [3] 
 
-### Original dataset files:
+### Original dataset files
 
 - 'README.txt' [3]
 - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -65,3 +65,10 @@ For each record in the dataset contains:
   - "run_analysis.R"
   - "tidy.txt"
   
+## CONTENT CONNECTIONS
+
+The Readme.md file explains the homework assignment and briefly describes the data used in the analysis and the steps taken to transform the data. The run_analysis.R file loads the data and transforms it as described above. The output is the tidydata.txt file. The Codebook.md file contains the information on how the data is transformed to create tidydata.txt and details of the data variables that are in tidydata.txt. 
+
+## NOTES
+
+run_analysis.R will execute from the main directory as long as the Samsung data is in the working directory ("UCI HAR Dataset").
