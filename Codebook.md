@@ -283,7 +283,7 @@ activity - Type of the activity performed when the measurements were taken
 
 "freqBodyGyroMeanFreqZ"      
 
-##### Magnitudes calculated from cartesian coodinated
+##### Magnitudes calculated from cartesian coodinates
 
 ###### Average of means of the magnitudes of body accelerations
 
